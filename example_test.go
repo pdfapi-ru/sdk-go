@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 
-	pdfapi "github.com/Homelander-77/PDF-creator-site/sdk/go"
+	pdfapi "github.com/pdfapi-ru/sdk-go"
 )
 
 func Example() {

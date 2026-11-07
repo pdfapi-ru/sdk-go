@@ -10,7 +10,7 @@ import (
 	"html/template"
 	"log"
 
-	pdfapi "github.com/Homelander-77/PDF-creator-site/sdk/go"
+	pdfapi "github.com/pdfapi-ru/sdk-go"
 )
 
 type item struct {

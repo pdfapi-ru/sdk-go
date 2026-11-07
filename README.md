@@ -3,11 +3,11 @@
 Официальная библиотека [pdfapi](https://pdfapi.ru): HTML, страница по адресу, Markdown или docx/xlsx/pptx — в PDF одним вызовом. Только стандартная библиотека, Go 1.21+.
 
 ```bash
-go get github.com/Homelander-77/PDF-creator-site/sdk/go
+go get github.com/pdfapi-ru/sdk-go
 ```
 
 ```go
-import pdfapi "github.com/Homelander-77/PDF-creator-site/sdk/go"
+import pdfapi "github.com/pdfapi-ru/sdk-go"
 
 client, err := pdfapi.NewClient() // ключ из переменной окружения PDFAPI_KEY
 if err != nil {
